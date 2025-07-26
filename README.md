@@ -43,9 +43,9 @@ Detection results are automatically annotated and saved, with FPS and face count
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 1. 🔍 Detect Faces and Eyes in Image Dataset
+### 1. Detect Faces and Eyes in Image Dataset
 ```bash
 python face_eye_detection.py
 ```
@@ -54,7 +54,7 @@ python face_eye_detection.py
 
 ---
 
-### 2. 📷 Real-Time Detection (Haarcascade)
+### 2. Real-Time Detection (Haarcascade)
 ```bash
 python main.py
 ```
@@ -63,7 +63,7 @@ python main.py
 
 ---
 
-### 3. 🤖 Enhanced Real-Time Detection (DNN)
+### 3. Enhanced Real-Time Detection (DNN)
 ```bash
 python main_dnn.py
 ```
@@ -76,7 +76,7 @@ Make sure these model files exist:
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.x
 - OpenCV (`opencv-python`)
@@ -89,7 +89,7 @@ pip install opencv-python numpy
 
 ---
 
-## 🧠 Model Files
+## Model Files
 
 If missing, download from OpenCV GitHub:
 - [Caffe Model (.caffemodel)](https://github.com/opencv/opencv_3rdparty/blob/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel)
@@ -99,13 +99,13 @@ Place both in the `models/` directory.
 
 ---
 
-## 🖼 Sample Output
+## Sample Output
 
 [20250726_194501_224] Faces detected: 1
 [20250726_194502_125] Faces detected: 2
 
 
-## 📌 Notes
+## Notes
 
 - Press `q` to quit webcam stream in real-time modes.
 - Images are saved with timestamps when faces are detected.
@@ -113,7 +113,7 @@ Place both in the `models/` directory.
 
 ---
 
-## 🧭 Future Work
+## Future Work
 
 - Integrate face recognition (e.g., FaceNet or DeepFace)
 - Add emotion or expression recognition
