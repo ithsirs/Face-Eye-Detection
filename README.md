@@ -1,5 +1,5 @@
 
-# 👁️ Real-Time Face & Eye Detection System using OpenCV (Haarcascade + DNN)
+# Real-Time Face & Eye Detection System using OpenCV (Haarcascade + DNN)
 
 This project presents a robust, real-time face and eye detection system built using **OpenCV** in Python. It implements three detection pipelines:
 1. **Image Dataset-based Detection (Haarcascade)**
